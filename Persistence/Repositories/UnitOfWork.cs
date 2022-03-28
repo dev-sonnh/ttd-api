@@ -1,0 +1,20 @@
+﻿using TTDesign.API.Domain.Repositories;
+using TTDesign.API.Persistence.Contexts;
+
+namespace TTDesign.API.Persistence.Repositories
+{
+    public class UnitOfWork : IUnitOfWork
+    {
+        private readonly AppDbContext _context;
+
+        public UnitOfWork(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task CompleteAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
+    }
+}

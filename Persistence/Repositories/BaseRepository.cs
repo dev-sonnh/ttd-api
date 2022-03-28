@@ -1,0 +1,14 @@
+﻿using TTDesign.API.Persistence.Contexts;
+
+namespace TTDesign.API.Persistence.Repositories
+{
+    public abstract class BaseRepository
+    {
+        protected readonly AppDbContext _context;
+
+        public BaseRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+    }
+}

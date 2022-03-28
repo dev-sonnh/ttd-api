@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Administrator\source\repos\TTD-Api.MySQL\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-03-15T11:04:49.7697963Z;False|2022-03-15T18:04:25.8933048+07:00;False|2022-03-15T18:03:44.4077262+07:00;True|2022-03-15T17:27:49.2944350+07:00;True|2022-03-15T17:11:00.2955476+07:00;</History>
+  </PropertyGroup>
+</Project>

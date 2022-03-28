@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2022-03-25T12:53:28.3108677Z;True|2022-03-23T15:58:58.9805666+07:00;True|2022-03-22T16:42:02.4358027+07:00;True|2022-03-21T16:49:43.8215644+07:00;True|2022-03-21T08:53:54.1296450+07:00;True|2022-03-18T17:14:57.5988879+07:00;True|2022-03-18T15:12:38.2165876+07:00;True|2022-03-18T10:20:17.6540538+07:00;False|2022-03-18T10:19:56.8864805+07:00;True|2022-03-18T08:51:32.1637121+07:00;True|2022-03-17T19:05:14.7832376+07:00;False|2022-03-17T19:04:38.8857808+07:00;False|2022-03-17T19:04:03.3677211+07:00;True|2022-03-17T18:56:21.2939182+07:00;False|2022-03-17T18:56:07.1672265+07:00;False|2022-03-17T18:55:36.1445342+07:00;False|2022-03-17T18:55:01.2876370+07:00;True|2022-03-17T18:16:43.0181166+07:00;True|2022-03-17T18:04:21.8886729+07:00;False|2022-03-17T18:03:05.9199983+07:00;False|2022-03-17T18:02:06.6759256+07:00;True|2022-03-17T16:03:10.0246909+07:00;False|2022-03-17T16:00:31.0734052+07:00;True|2022-03-17T10:52:17.3160634+07:00;True|2022-03-16T18:12:31.3439190+07:00;True|2022-03-15T18:09:19.6554228+07:00;True|2022-03-15T17:55:16.3123431+07:00;False|2022-03-15T17:24:46.8601926+07:00;False|2022-03-15T17:23:47.2435769+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="TTDesignDB">
+      <Value>Server=localhost%3bDatabase=ttdesigndatabase%3bUid=root%3bPwd=1234%3bConvert Zero Datetime=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
